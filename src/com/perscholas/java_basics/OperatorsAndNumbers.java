@@ -2,12 +2,6 @@ package com.perscholas.java_basics;
 
 public class OperatorsAndNumbers {
     public static void main(String[] args) {
-        System.out.println("\n------task 1-------------");
-        task1();
-
-        System.out.println("\n------task 2-------------");
-        task2();
-
         System.out.println("\n------task 3-------------");
         task3();
 
@@ -22,42 +16,6 @@ public class OperatorsAndNumbers {
 
         System.out.println("\n------task 7-------------");
         task7();
-    }
-
-    // task 1
-    static void task1() {
-        task1Helper(2);
-        task1Helper(9);
-        task1Helper(17);
-        task1Helper(88);
-    }
-
-    static void task1Helper(int x) {
-        System.out.printf("x = %d and binary version is: %s\n", x, Integer.toBinaryString(x));
-
-        System.out.println("performing left shift by 1 on " + x);
-        x = x << 1;
-        System.out.printf("x = %d and binary version is: %s\n", x, Integer.toBinaryString(x));
-
-        System.out.println("--------------------------------------------");
-    }
-
-    // task 2
-    static void task2() {
-        task2Helper(150);
-        task2Helper(225);
-        task2Helper(1555);
-        task2Helper(32456);
-    }
-
-    static void task2Helper(int x) {
-        System.out.printf("x = %d and binary version is: %s\n", x, Integer.toBinaryString(x));
-
-        System.out.println("performing right shift by 2 on " + x);
-        x = x >> 2;
-        System.out.printf("x = %d and binary version is: %s\n", x, Integer.toBinaryString(x));
-
-        System.out.println("--------------------------------------------");
     }
 
     // task 3
